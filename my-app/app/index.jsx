@@ -5,9 +5,8 @@ import satish from '../assets/images/satish.jpg'
 const app = () => {
   return (
     <View style={styles.container}>
-      <ImageBackground source={satish} resizeMode='cover' style={styles.image}>       
-     
-      <Text style={styles.textColor}>app</Text>
+      <ImageBackground source={satish} resizeMode='cover' style={styles.image}>
+      <Text style={styles.textColor}>Satish app</Text>
       </ImageBackground>
     </View>
   )
@@ -23,7 +22,7 @@ const styles = StyleSheet.create({
     margin:'auto'
   },
   textColor:{
-    color:'white',
+    color:'black',
     fontSize:40,
     fontWeight:'600'    
   },
